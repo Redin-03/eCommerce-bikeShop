@@ -61,7 +61,7 @@ if ($stmt->execute()) {
         $mail->Body = "
             <h2>Thank you for registering!</h2>
             <p>Click the link below to verify your email:</p>
-            <a href='http://localhost/BongBicycleShop/auth/verify.php?code=$verification_code'>Verify Email</a>
+            <a href='http://localhost/bongbicycleshop-capstone/ecommerce-bikeshop/auth/verify.php?code=$verification_code'>Verify Email</a>
         ";
 
         $mail->send();

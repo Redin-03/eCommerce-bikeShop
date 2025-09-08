@@ -60,7 +60,7 @@ try {
         <h2>Password Reset Request</h2>
         <p>Hello, $user_name!</p>
         <p>Click the link below to reset your password:</p>
-        <a href='http://localhost/BongBicycleShop/auth/reset_password.php?code=$reset_code'>Reset Password</a>
+        <a href='http://localhost/bongbicycleshop-capstone/ecommerce-bikeshop/auth/reset_password.php?code=$reset_code'>Reset Password</a>
         <p>If you did not request a password reset, please ignore this email.</p>
     ";
 
